@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách người dùng</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="#">Home</a> | <a href="login.html">Đăng xuất</a>
+        </div>
+        <div class="list-box">
+            <h2>Danh sách user</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody id="userList">
+                    </tbody>
+            </table>
+            <div class="pagination">
+                <button id="prevPage">Previous</button>
+                <span id="currentPage">1</span>
+                <button id="nextPage">Next</button>
+            </div>
+        </div>
+        <div class="footer">
+            Lập Trình Web By Nguyễn Huỳnh 22/3/2025
+        </div>
+    </div>
+    <script src="js/thanhphantrang.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+</html>
